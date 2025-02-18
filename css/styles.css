@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background-color: rebeccapurple;
+    color: #FFF;
+    font-family: serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+main {
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-transform: uppercase;
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+a:visited {
+    color: black;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+}
+
+.container {
+    width: 100%;
+    padding: 1em;
+    background-color: red;
+    max-width: 1024px;
+    margin: 0 auto;
+}
